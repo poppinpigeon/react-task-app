@@ -9,7 +9,6 @@ import { addLog } from '../../store/slices/loggerSlice';
 import { v4 } from 'uuid';
 import { setModalData } from '../../store/slices/modalSlice';
 import { deleteButton, header, listWrapper, name } from './List.css';
-import { board } from '../../App.css';
 
 type TListProps = {
   boardId: string;
