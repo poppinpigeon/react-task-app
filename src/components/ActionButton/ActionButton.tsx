@@ -15,7 +15,7 @@ const ActionButton : FC<TActionButtonProps> = ({
     list
 }) => {
 
-    const [isFormOpen, setIsFormOpen] = useState<boolean>();
+    const [isFormOpen, setIsFormOpen] = useState(true);
     const buttonText = list ? 'Create new list' : 'Create new task';
 
     return isFormOpen ? (
